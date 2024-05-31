@@ -56,10 +56,10 @@ const submitButton = document.querySelector("#btn")
 
     
     if( values.includes("")){
-alert("Please fill out all the forms")
+window.alert("  fill out all the forms")
 
     } else{
-        confirm("Are you sure you want to add game?")
+       window.confirm("Are you sure you want to add game?")
 
 
     }
